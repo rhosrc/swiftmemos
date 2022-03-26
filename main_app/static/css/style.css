@@ -3,8 +3,16 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background-color: #0b2027;
-    color:#f18f01;
-    
+    color: #f18f01;
+    text-align: center;
+}
+
+input {
+    color: white;
+}
+
+.reg-container input {
+    color: black;
     text-align: center;
 }
 
@@ -28,17 +36,17 @@ footer {
 }
 
 h2 {
-    text-shadow:#f18f01 1px 2px 5px;
+    text-shadow: #f18f01 1px 2px 5px;
 }
 
 img {
     border-radius: 10px;
 }
 
-.home-image{
+.home-image {
     border-radius: 20px;
     padding: 10px;
-    
+
     align-content: center;
 }
 
@@ -56,21 +64,23 @@ img {
 }
 
 .card-content {
-    background: rgb(4,139,168);
-    background: linear-gradient(180deg, #048ba8 15%, #048ba8 25%, rgba(4,139,168,0.36738445378151263));
+    background: rgb(4, 139, 168);
+    background: linear-gradient(180deg, #048ba8 15%, #048ba8 25%, rgba(4, 139, 168, 0.36738445378151263));
     color: #f18f01;
     font-size: 20px;
     text-shadow: none;
 }
+
 .card-title {
     color: white;
     font-weight: bold;
     font-size: large;
     text-shadow: #f18f01 1px 2px 10px;
 }
+
 .detail-card {
     background: #048ba8;
-    background: linear-gradient(180deg, #048ba8 15%, #048ba8 25%,  rgba(4,139,168,0.36738445378151263));
+    background: linear-gradient(180deg, #048ba8 15%, #048ba8 25%, rgba(4, 139, 168, 0.36738445378151263));
     box-shadow: 0 4px 0 whitesmoke;
 }
 
@@ -86,4 +96,9 @@ p {
     color: #f18f01;
     font-size: 20px;
     text-shadow: none;
+}
+
+#id_username,
+#id_password {
+    text-align: center;
 }

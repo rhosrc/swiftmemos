@@ -2,6 +2,9 @@ const dateEl = document.getElementById('id_memo_create_date');
 const afterEl = document.getElementById('id_start_date');
 const beforeEl = document.getElementById('id_end_date');
 
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+});
 
 M.Datepicker.init(dateEl, {
     format: 'yyyy-mm-dd',
@@ -23,4 +26,6 @@ M.Datepicker.init(beforeEl, {
     setDefaultDate: false,
     autoClose: true
 });
+
+
 

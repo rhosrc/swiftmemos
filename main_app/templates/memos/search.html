@@ -3,7 +3,7 @@
 {% block content %}
 <h1>Your Memos</h1>
 <h3>Hello, {{ user }}! </h3>
-<a href="{% url 'memos_create' %}">Add a Memo</a>
+<ahref="{% url 'memos_create' %}"><i class='material-icons'>assignment</i></a>
 
 
 
@@ -13,7 +13,7 @@
             <table>
                 {{ filter.form }}
             </table>
-                <button type="submit">Find</button>
+                <button class="btn blue" type="submit">Find</button>
     </form>
     
 
@@ -47,8 +47,8 @@
 </td>
 <td>
     <div>
-        <a href="{% url 'memos_update' memo.id %}">Edit</a>
-        <a href="{% url 'memos_delete' memo.id %}">Delete</a>
+        <a class="btn blue" href="{% url 'memos_update' memo.id %}">Edit</a>
+        <a class="btn red" href="{% url 'memos_delete' memo.id %}">Delete</a>
     </div>
 </td>
 
