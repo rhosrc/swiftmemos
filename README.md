@@ -1,6 +1,6 @@
 # SwiftMemOS
 
-A simple Django app for creating and accessing organizational memos! Through authentication, users can create memos and view a list of one they've made.
+A simple Django app for creating and accessing organizational memos! Through authentication, users can create memos and view a list of ones they've made.
 
 ## Technologies Used
 
@@ -30,7 +30,7 @@ A simple Django app for creating and accessing organizational memos! Through aut
 
 ## Getting Started
 
-[Click the link](https://swiftmemos1.herokuapp.com/) to get started. You can sign up either as an admin or a standard user. If you sign up as an admin, you will be able to create memos and filter them according to date and title. 
+[Click the link](https://swiftmemos1.herokuapp.com/) to get started. You can sign up either as an admin or a standard user. If you sign up as an admin, you will be able to perform CRUD operations upon memos and filter them according to date and title. You can even add tags to help you organize them.
 
 ## Future Enhancements
 
