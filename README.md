@@ -26,11 +26,11 @@ A simple app for creating and accessing organizational memos!
 
 ## Trello Board
 
-[CLICK HERE] (https://trello.com/b/f4B0tAby/unit-4-project)
+[CLICK HERE](https://trello.com/b/f4B0tAby/unit-4-project)
 
 ## Getting Started
 
-[Click the link] (https://swiftmemos1.herokuapp.com/) to get started.
+[Click the link](https://swiftmemos1.herokuapp.com/) to get started.
 
 ## Future Enhancements
 
